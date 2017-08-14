@@ -1,0 +1,36 @@
+main {
+  padding: 20px;
+  font-size: 16px;
+  background-color: gray;
+}
+
+#tables {
+  background-color: white;
+  border-radius: 8px;
+}
+
+#cal-table {
+  margin-bottom: 20px;
+}
+
+.table {
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+th {
+  text-align: center;
+}
+
+td {
+  text-align: center;
+  vertical-align: middle !important;
+}
+
+input {
+  width: 90%;
+}
+
+.btn {
+  font-size: 14px;
+}
