@@ -25,3 +25,9 @@ export const deleteExpensesItem = (index) => {
     payload: index
   };
 };
+
+export const reset = () => {
+  return {
+    type: 'RESET'  
+  };
+};

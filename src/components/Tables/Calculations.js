@@ -16,6 +16,17 @@ class Calculations extends Component {
     this.contributionProfitTotal = 0;
   }
 
+  componentWillUpdate() {
+    this.oneTimeRevenueTotal = 0;
+    this.monthlyRevenueTotal = 0;
+    this.revenueTotal = 0;
+    this.oneTimeExpensesTotal = 0;
+    this.monthlyExpensesTotal = 0;
+    this.expensesTotal = 0;
+    this.monthlyContributionProfit = 0;
+    this.contributionProfitTotal = 0;
+  }
+
   getOneTimeRevenueTotal = () => {
     if (this.props.revenueList.length === 0) {
       return '';

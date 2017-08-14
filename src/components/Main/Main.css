@@ -11,7 +11,7 @@ main {
 }
 
 #cal-table {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .table {
@@ -34,4 +34,14 @@ input {
 
 .btn {
   font-size: 14px;
+}
+
+#reset {
+  margin-bottom: 10px;
+}
+
+#reset-btn {
+  font-size: 16px;
+  float: right;
+  margin-right: 15px;
 }

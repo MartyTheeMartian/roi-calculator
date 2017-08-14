@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Revenue from '../Tables/Revenue';
 import Expenses from '../Tables/Expenses';
 import Calculations from '../Tables/Calculations';
+import Reset from './Reset';
 import './Main.css';
 
 class Main extends Component {
@@ -13,6 +14,7 @@ class Main extends Component {
           <Revenue />
           <Expenses />
           <Calculations />
+          <Reset />
         </div>
       </main>
     );

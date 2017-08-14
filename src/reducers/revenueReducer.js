@@ -6,6 +6,8 @@ export const revenueReducer = (state = [], action) => {
       state.splice(action.payload, 1);
       const newState = state.slice();
       return newState;
+    case 'RESET':
+      return [];
     default:
       return state;
   }
